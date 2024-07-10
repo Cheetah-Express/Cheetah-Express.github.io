@@ -474,3 +474,23 @@
 .footer .copyright a {
     color: var(--light);
 }
+
+.price-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.price-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-features {
+    flex-grow: 1;
+}
+
+.price-button {
+    margin-top: 20px; /* Adjust this value as needed */
+}
